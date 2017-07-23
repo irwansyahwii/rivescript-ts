@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "@types/jest": "^20.0.4",
+    "jest": "^20.0.4",
+    "rivescript": "^1.17.2",
+    "rxjs": "^5.4.2",
+    "ts-jest": "^20.0.7",
+    "typescript": "^2.4.2"
+  },
+  "name": "rivescript-ts",
+  "scripts": {
+    "test": "jest"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/irwansyahwii/rivescript-ts",
+  "author": "Irwansyah <irwansyah@gmail.com>",
+  "license": "MIT",
+  "jest": {
+    "transform": {
+      ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ]
+  }
+}
